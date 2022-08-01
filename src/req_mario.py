@@ -7,7 +7,7 @@ class MensajeBienvenida:
         self.apellido = apellido
         self.mensaje = mensaje
     
-    def Mensaje(self):
+    def Bienvenida(self):
         mensaje = f'Muy buenas, mi nombre es {self.nombre} {self.apellido} , {self.mensaje}'
         return mensaje
 
